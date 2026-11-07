@@ -1,0 +1,12 @@
+{
+  "name": "cyclops-ai",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "build": "npm --prefix client run build"
+  }
+}
